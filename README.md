@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/BackofenLab/MARNA.svg?branch=master)](https://travis-ci.org/BackofenLab/MARNA)
 # MARNA
 Enables Multiple Alignment of RNAs with fixed/given structures.
 
