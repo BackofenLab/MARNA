@@ -15,5 +15,5 @@ script:
  #- tar xvfz vienna_rna_1.8_src_all.tar.gz
  #- cd ViennaRNA-1.8.5 && ./configure --prefix=$HOME/vienna --without-perl && make && make install
  - make
- - align -h
+ - ./align -h
  - perl marna.pl -h
