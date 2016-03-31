@@ -1,0 +1,11 @@
+
+2010-07-29 Martin Mann
+ * align.cc : stdlib.h header included to be compilable with g++ 4.3.4
+ * consensus.cc : conversion issues fixed, no warning anymore with g++ 4.3.4
+ * INSTALL.readme : more verbose, LocARNA use highlighted
+
+2006-02-24 Sven Siebert
+ + marna.pl : perl script to run MARNA
+
+2005-11-10 Sven Siebert
+ + initial source code finalized

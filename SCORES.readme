@@ -1,0 +1,27 @@
+// input_scores.txt Format
+base deletion (w_d =1.0)
+base mismatch (w_m =1.0)
+arc  removing (w_r =2.0)    (A,U) vs. (-,-)
+arc  breaking (w_b =1.5)    (A,U) vs. (a,u)
+arc  mismatch (w_am=1.8)    (A,U) vs. (C,G)
+
+// default
+w_d =2.0
+w_m =1.0
+w_r =2.0
+w_b =1.5
+w_am=1.8
+
+// structure based
+w_d =0.1
+w_m =0.1
+w_r =2.0
+w_b =1.5
+w_am=1.8
+
+// sequence based
+w_d =2.0
+w_m =1.0
+w_r =0.1
+w_b =0.1
+w_am=0.1

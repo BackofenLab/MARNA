@@ -1,0 +1,81 @@
+
+
+######################################
+# MARNA and related tools
+######################################
+
+MARNA is a multiple alignment of RNA s taking into consideration both the primary sequence and the secondary structure. It is based on pairwise comparisons using costs of edit operations. The edit operations can be divided into edit operations on arcs and edit operations on bases. Additionally, MARNA predicts a consensus sequence as well as a consensus structure. 
+
+NOTE: MARNA is old (2005) and since that time not under development anymore!
+
+Please check and consider our recent and more advanced tool LocARNA at
+
+  http://rna.informatik.uni-freiburg.de
+   or
+  http://www.bioinf.uni-freiburg.de/Software/LocARNA/ 
+
+
+######################################
+# PRELIMINARIES
+######################################
+
+(1) Ensure you have compiled and installed tcoffee and it is in your PATH environment variable, i.e. you can run tcoffee from any directory
+
+  http://www.tcoffee.org/
+
+(2.1) Ensure you have compiled and installed the Vienna RNA package (if to use MARNA with RNAfold or RNAsubopt)
+
+  http://www.tbi.univie.ac.at
+  
+(2.2) or Ensure you have compiled and installed the RNAshapes package (if to use MARNA with RNAshapes)
+
+  http://bibiserv.techfak.uni-bielefeld.de/rnashapes/
+
+(3) The Makefile uses 'g++' to compile. In order to use a different compiler change the Makefile accordingly.
+ 
+
+######################################
+# COMPILATION
+######################################
+
+(1) type 'make' within the source directory to compile the binaries
+
+(2) try MARNA using 'perl marna.pl test.efasta' and hope it works (uses RNAfold)
+
+
+
+######################################
+# APPLICATION
+######################################
+
+(-) Run 'perl marna.pl E_FASTA_FILE' where E_FASTA_FILE contains RNA sequences in (extended) fasta format.
+
+(h) Run 'perl marna.pl -h' to get verbose parameter information
+
+
+######################################
+# REFERENCE
+######################################
+
+
+MARNA: Multiple alignment and consensus structure prediction of RNAs based on sequence structure comparisons.
+Sven Siebert and Rolf Backofen 
+Bioinformatics 2005, 21: 3352-3359
+ doi:10.1093/bioinformatics/bti550 
+
+
+
+######################################
+# CONTACT
+######################################
+
+When facing any problems please don't hesitate to contact us at
+
+  http://rna.informatik.uni-freiburg.de
+
+Original source code (c) by Sven Siebert 2005  
+
+ Bioinformatics
+ University of Freiburg
+ Freiburg, Germany
+
